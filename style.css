@@ -1,0 +1,88 @@
+/* all */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.font_orange {
+    color: orange;
+}
+
+.flex {
+    display: flex;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.button-gradient {
+    padding: 10px 40px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/* welcome section */
+.welcome {
+    padding: 0 7% 150px;
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.welcome h1 {
+    font-size: 50px;
+}
+
+.welcome div:first-child {
+    padding-right: 40px;
+}
+
+.welcome div:last-child {
+    padding-left: 40px;
+}
+
+.welcome p {
+    color: #696969;
+
+}
+
+/* dream section */
+.dream {
+    padding: 0 7% 150px;
+    background-image: url(images/dream-bg.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.dream h1 {
+    font-size: 40px;
+}
+
+.dream div:first-child {
+    padding-right: 40px;
+}
+
+.dream div:last-child {
+    padding-left: 55px;
+}
+
+.dream p {
+    color: #696969;
+
+}
